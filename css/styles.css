@@ -1,0 +1,86 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo .part-two {
+  color: var(--title-text-color);
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* auth-nav */
+.auth-nav .link {
+  color: #757575;
+}
+
+.auth-nav .link:hover {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+.hero .button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* features */
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* employees */
+.employees .title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+footer {
+  background-color: var(--secondary-bg-color);
+}
+.footer-part-two {
+  color: var(--white-color);
+}
+.map {
+  color: var(--white-color);
+}
+.auth {
+  color: var(--primary-text-color);
+}
