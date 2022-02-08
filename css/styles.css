@@ -5,6 +5,7 @@
   --white-color: #ffffff;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
+  --button-bg-color: #f5f4fa;
 }
 body {
   background-color: var(--primary-bg-color);
@@ -38,7 +39,8 @@ body {
   color: #757575;
 }
 
-.auth-nav .link:hover {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -54,6 +56,11 @@ body {
 .hero .button {
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #188ce8;
 }
 
 /* section */
@@ -75,12 +82,30 @@ body {
 footer {
   background-color: var(--secondary-bg-color);
 }
-.footer-part-two {
+.footer .part-two {
   color: var(--white-color);
 }
-.map {
+.footer .map {
   color: var(--white-color);
 }
-.auth {
+.footer .auth {
   color: var(--primary-text-color);
+}
+
+/* Portfolio */
+
+.portfolio-button .button {
+  background-color: var(--button-bg-color);
+  color: var(--title-text-color);
+}
+.portfolio-button .button:hover,
+.portfolio-button .button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* project */
+
+.portfolio-project .title {
+  color: var(--title-text-color);
 }
